@@ -31,6 +31,12 @@ public class Kalkylator {
                     break;
                 case 2:
                     System.out.println("Du valde 2. Subtrahera -");
+                    System.out.println("Skriv in ditt första tal!");
+                    int tal3 = input.nextInt();
+                    System.out.println("Skriv ditt andra tal!");
+                    int tal4 = input.nextInt();
+                    int result = tal3 - tal4;
+                    System.out.println("Resultatet är:" + result);
                     break;
                 case 3:
                     System.out.println("Du valde 3. Multiplikation *");
