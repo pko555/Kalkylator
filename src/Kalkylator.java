@@ -21,6 +21,13 @@ public class Kalkylator {
             {
                 case 1:
                     System.out.println("Du valde 1. Addition +");
+                    System.out.println("Skriv ditt första tal!");
+                    int tal1 = input.nextInt();
+                    System.out.println("Skriv ditt andra tal!");
+                    int tal2 = input.nextInt();
+                    int sum = tal1 + tal2;
+                    System.out.println("Resultatet är:" + sum);
+
                     break;
                 case 2:
                     System.out.println("Du valde 2. Subtrahera -");
